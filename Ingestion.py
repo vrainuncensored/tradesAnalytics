@@ -14,7 +14,7 @@ pd.set_option('display.width', 1000)
 # In[136]:
 
 
-df=pd.read_csv(r'/Users/rooblebagga/Documents/2020-12-14-AccountStatement.csv')
+df=pd.read_csv(r'tdameritrade.csv')
 
 
 # In[137]:
