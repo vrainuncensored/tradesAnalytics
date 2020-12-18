@@ -37,3 +37,7 @@ def quantifyOrderTypes() {
             totalLimitOrders += 1
 }
 
+def isShort() {
+    if Order_History[i+1] == ' BUY' && Order_History[i] == 'SOLD':
+        return true
+}
